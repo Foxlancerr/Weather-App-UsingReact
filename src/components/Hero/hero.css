@@ -1,0 +1,77 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(19, 19, 19, 0.433);
+  gap: 15px;
+  padding: 20px 0px;
+  border-radius: 10px ;
+  width: 100%;
+}
+.upper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.clear-Btn {
+  background-color: rgb(255, 196, 0);
+  cursor: pointer;
+  padding: 5px 16px;
+  color: black;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: .2s ease;
+}
+.clear-Btn:hover{
+    transform: scale(1.25);
+}
+.middle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.middle svg{
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    color: yellow;
+}
+.middle svg:hover{
+    transform: rotate(360deg);
+}
+.temp-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.temp-row {
+  align-items: flex-end;
+  display: flex;
+  gap: 5px;
+}
+.temp-row p {
+  color: rgba(255, 255, 255, 0.814);
+  font-size: 12px;
+}
+.temp-row b {
+  color: rgba(255, 255, 255, 1);
+  font-size: 13px;
+  font-weight: 500;
+}
+.temp-row svg {
+  color: yellow;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.temp-row svg:hover {
+  transform: scale(1.5);
+}
+.bottom {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+}
+

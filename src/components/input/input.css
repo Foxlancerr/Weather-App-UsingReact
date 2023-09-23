@@ -1,0 +1,42 @@
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    font-weight: 500;
+
+}
+.input-wrapper{
+    padding: 15px 26px;
+    background-color: rgba(0, 0, 0, 0.43);
+    border-radius: 50px;
+    display: flex;
+    box-shadow: inset 0px 0px 10px black,0px 0px 30px rgba(0, 0, 0, 0.72);
+    align-items: center;
+    gap: 10px;
+}
+.foran-height{
+    font-size: 1.5rem;
+    font-weight: 300;
+    cursor: pointer;
+    color: yellow;
+}
+.input{
+    font-size: 1rem;
+    text-transform: lowercase;
+    color: rgb(226, 226, 226);
+}
+.input::placeholder{
+    color: rgb(255, 255, 255);
+}
+.input-icon{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: .1s linear;
+}
+.input-icon:nth-child(3){
+    color: yellow !important;
+}
+.input-icon:hover{
+    transform: scale(1.25);
+}
